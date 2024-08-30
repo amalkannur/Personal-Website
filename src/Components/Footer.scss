@@ -1,0 +1,45 @@
+//  <<< --------------- DECLARING VARIABLES ---------------  >>>
+$color_white : #fff;
+$color1 :#164863 ;
+$color1D : #135375 ;
+$color2 : #427D9D ; 
+$color3 : #9BBEC8 ;
+$color4 : #DDF2FD ;
+
+*{ 
+   margin: 0; 
+   padding: 0;
+}
+
+.Footer{ 
+background: $color2;
+min-height: 130px;
+color: $color4;
+a{ 
+    text-decoration: none;
+    color: $color4;
+    transition: all ease 200ms;
+    &:hover{ 
+        color: $color_white;
+    }
+}
+
+ul{ 
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    li{ 
+        list-style-type: none; 
+        width: 48px;
+        height: 20px;
+        transition: all ease 200ms;
+        a{ 
+            font-size: 16px;
+            &:hover{ 
+                font-size: 17px;
+            }
+        }
+        
+    }
+}
+}

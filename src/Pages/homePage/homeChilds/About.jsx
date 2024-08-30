@@ -23,6 +23,7 @@ function About() {
                     <br /> I'd love to hear from you! Whether you have a project in mind, want to collaborate, or just want to chat about design, feel free to drop me a message.
                     <br /> Combining my expertise in UI/UX design and MERN stack development, I offer a comprehensive service that bridges the gap between design and technology. Whether it's designing a user-friendly interface or developing a full-stack web application, I ensure that every element works together to create a cohesive and seamless experience
                        <a className='text-decoration-underline'> See More </a>
+                       
                     </p>
                     <a className='btn-1' target='blank' href={Resume}> Download CV   <span className='ms-1'> <FaCloudDownloadAlt /> </span>  </a>
                 </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Header.scss"
 // import logoHeader from '../assets/images/logo-header.png'
+import { RxHamburgerMenu } from "react-icons/rx";
 
 function Header() {
 
@@ -19,7 +20,7 @@ function Header() {
 
           <div className='w-50 text-end'>
             <a
-              className="navbar-toggler"
+              className="navbar-toggler border-0"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -27,7 +28,7 @@ function Header() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon" />
+                <span className="border-0">  <RxHamburgerMenu /> </span>
             </a>
           </div>
 

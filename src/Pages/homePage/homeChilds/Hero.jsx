@@ -22,9 +22,9 @@ function Hero() {
                 </div>
                 <div className="col-10 col-lg-6 second-col"> 
                      <div> 
-                        <h1> DEMO TEXT GOES HERE LIKE THIS </h1>
-                        <p> Lorem Ipsum Dolor sit amet </p>
-                        <a href="#"> Lets Talk </a>
+                        <h1> UI/UX Designer & MERN Stack Developer </h1>
+                        <p> Bridging Design & Development for Seamless User Experiences </p>
+                        <a href="#LetsTalk"> Lets Talk </a>
                      </div>
                 </div>
                 <div className="col-lg-5 third-col"> 

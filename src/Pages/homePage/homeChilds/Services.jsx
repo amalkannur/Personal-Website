@@ -22,7 +22,7 @@ function Services() {
                             <p> 
                             Tailored website design that aligns with a client's brand, target audience, and business goals. 
                             </p>
-                            <a className=' text-center p-2' href="">Contact Now</a>
+                            <a className=' text-center p-2' href="#LetsTalk">Contact Now</a>
                         </div>
                     </div>
 
@@ -37,7 +37,7 @@ function Services() {
                             <p> 
                             Development of the visual aspects of a website, including the layout, UI elements, animations, and interactivity 
                             </p>
-                            <a className=' text-center p-2' href="">Contact Now</a>
+                            <a className=' text-center p-2' href="#LetsTalk">Contact Now</a>
                         </div>
                     </div>
 
@@ -54,7 +54,7 @@ function Services() {
                             <p> 
                             This service focuses on optimizing the usability, accessibility, and overall experience for users 
                             </p>
-                            <a className=' text-center p-2' href="">Contact Now</a>
+                            <a className=' text-center p-2' href="#LetsTalk">Contact Now</a>
                         </div>
                     </div>
 
@@ -69,7 +69,7 @@ function Services() {
                             <p> 
                             This service ensures that all design elements are consistent across all platforms 
                             </p>
-                            <a className=' text-center p-2' href="">Contact Now</a>
+                            <a className=' text-center p-2' href="#LetsTalk">Contact Now</a>
                         </div>
                     </div>
 

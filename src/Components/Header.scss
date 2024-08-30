@@ -1,0 +1,48 @@
+
+//  <<< --------------- DECLARING VARIABLES ---------------  >>>
+$color_white : #fff;
+$color1 :#164863 ;
+$color1D : #135375 ;
+$color2 : #427D9D ; 
+$color3 : #9BBEC8 ;
+$color4 : #DDF2FD ;
+
+.header{ 
+    background: $color_white;
+    padding: 0 16px ;
+    .header-logo{ 
+        width: 60%;
+    }
+    .parent-pages{ 
+        justify-content: end;
+        .pages{ 
+            display: flex; 
+            padding: 0; 
+            list-style: none;
+            .pages-child{ 
+                padding: 12px 20px;
+                font-weight: 400; 
+                min-width: 148px;
+                
+
+                a{ 
+                    color: $color1; 
+                     text-decoration: none;
+                     transition: all ease-in 200ms;
+                     font-size: 18px;
+                     cursor: pointer;
+                     &:active, &:hover{ 
+                        color: $color2;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width:768px) {
+            .pages{ 
+                flex-direction: column;
+            }
+        }
+    }
+  
+}
